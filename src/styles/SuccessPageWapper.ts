@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import BG from '../img/background.jpeg';
+import BG from '../img/background-img.jpeg';
 
 export const SignUpPageWapper = styled.div`
     display: grid;
