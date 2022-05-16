@@ -2,6 +2,7 @@ import React from 'react';
 import Success from '../../components/Success/Success';
 import { SignUpPageWapper } from '../../styles/SuccessPageWapper';
 import { Link } from 'react-router-dom';
+import BG from '../../img/background-img.jpeg';
 
 /* style-compontent */
 import styled from 'styled-components';
@@ -47,7 +48,7 @@ const SidebarWapper = styled.div`
 
 const index = () => {
     return (
-        <SignUpPageWapper>
+        <SignUpPageWapper style={{ backgroundImage: `url(${BG})` }}>
             <Success />
             <SidebarWapper>
                 <h1>Let's Make WordPress Better</h1>
